@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Submission2Made</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_movies">Movies</string>
+    <string name="title_tv_show">Tv Show</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movies_name">Movies Name</string>
+    <string name="genre_movies">Genre_Movies</string>
+    <string name="rating_movies">Rating Movies</string>
+    <string name="description_movie">Description Movie</string>
+    <string name="release_date">Release Date</string>
+    <string name="activity_details_img">detail image movie</string>
+    <string name="title">Title</string>
+    <string name="rating">rating movie</string>
+    <string name="description">deskripsi movie</string>
+    <string name="genre">genre movie</string>
+    //Movie
+    <string-array name="listAlita">
+        <item>https://image.tmdb.org/t/p/w185_and_h278_bestv2/xRWht48C2V8XNfzvPehyClOvDni.jpg</item>
+        <item>Alita: Battle Angel</item>
+        <item>Action, Science Fiction, Thriller, Adventure</item>
+        <item>Rating : 67%</item>
+        <item>January 31, 2019</item>
+        <item>"When Alita awakens with no memory of who she is in a future world she does not recognize, she is taken in by Ido, a compassionate doctor who realizes that somewhere in this abandoned cyborg shell is the heart and soul of a young woman with an extraordinary past.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_row_movie_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_item_movie"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="@dimen/frame_horizontal_margin"
+        android:layout_marginEnd="@dimen/frame_horizontal_margin"
+        tools:src="@android:color/holo_purple"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/img_item_movie"
+        android:layout_toRightOf="@id/img_item_movie"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_item_title_movie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="@string/movies_name"
+            />
+
+        <TextView
+            android:id="@+id/tv_item_genre_movie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            tools:text="@string/genre_movies"/>
+
+        <TextView
+            android:id="@+id/tv_item_rating_movie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/rating_movies"/>
+
+        <TextView
+            android:id="@+id/tv_item_desc_movie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:visibility="gone"
+            tools:text="@string/description_movie" />
+
+        <TextView
+            android:id="@+id/tv_item_release_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_desc"
+            android:layout_marginStart="15dp"
+            android:visibility="gone"
+            tools:text="@string/release_date"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
